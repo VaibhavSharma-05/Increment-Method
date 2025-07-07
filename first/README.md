@@ -1,0 +1,1 @@
+# Creates increment with +1 Method whenever it calls.
