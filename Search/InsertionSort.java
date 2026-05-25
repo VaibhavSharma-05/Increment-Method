@@ -2,11 +2,11 @@ public class InsertionSort {
 
     public static void main(String args[]){
 
-        int arr[] = {23, 75 ,32 ,65, 24, 89}
+        int arr[] = {23, 75 ,32 ,65, 24, 89};
 
         //for passes
         for(int i=0; i < arr.length; i++){
-            min = i;
+            int min = i;
 
                 //for searching 
             for(int j=i+1; j<arr.length; j++){ 
@@ -20,5 +20,10 @@ public class InsertionSort {
                 arr[i] = temp;
 
             }
-        }
+        
+
+       for(int i=0;i<arr.length;i++){
+        System.out.println(arr[i]);
+       }
     }
+}
